@@ -17,8 +17,12 @@ app.get("/", (req, res) => {
    }
   );
 
+  app.get("/contacto", (req, res) => {
+    res.send("<h1>9832107240</>");
+  });
+
   app.use((req, res) => {
-  res.status(404).send('Ruta no encontrada');
+  res.status(404).send("<h1>404 Not Found</h1>");
 });
 
   app. listen(port, () => {
