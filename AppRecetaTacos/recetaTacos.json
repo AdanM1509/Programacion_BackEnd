@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Puerco",
+    "nombre": "Taco lechon",
+    "carne": { "tipo": "Puerco", "preparacion": "Horneado" },
+    "salsa": { "nombre": "Tomate verde", "intensidad": "Medio" },
+    "acompañamientos": [
+      { "cantidad": "1 cucharada", "ingrediente": "Cebolla" },
+      { "cantidad": "2 cucharadas", "ingrediente": "Guacamole" }
+    ]
+  },
+  {
+    "type": "Pollo",
+    "nombre": "Taco de Pollo",
+    "carne": { "tipo": "Pollo", "preparacion": "A la plancha" },
+    "salsa": { "nombre": "Chipotle", "intensidad": "Picante" },
+    "acompañamientos": [
+      { "cantidad": "1 cucharada", "ingrediente": "Lechuga" },
+      { "cantidad": "2 cucharadas", "ingrediente": "Pico de gallo" }
+    ]
+  },
+  {
+    "type": "Res",
+    "nombre": "Taco de Res",
+    "carne": { "tipo": "Res", "preparacion": "Asado" },
+    "salsa": { "nombre": "Roja", "intensidad": "Fuerte" },
+    "acompañamientos": [
+      { "cantidad": "1 cucharada", "ingrediente": "Cebolla morada" },
+      { "cantidad": "2 cucharadas", "ingrediente": "Cilantro" }
+    ]
+  },
+  {
+    "type": "Huevo",
+    "nombre": "Taco de Huevo",
+    "carne": { "tipo": "Huevo", "preparacion": "Estrellado" },
+    "salsa": { "nombre": "Tomate rojo", "intensidad": "Suave" },
+    "acompañamientos": [
+      { "cantidad": "1 cucharada", "ingrediente": "Frijoles refritos" },
+      { "cantidad": "2 cucharadas", "ingrediente": "Queso fresco" }
+    ]
+  }
+]
