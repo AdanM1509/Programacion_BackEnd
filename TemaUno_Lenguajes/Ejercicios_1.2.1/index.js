@@ -11,9 +11,9 @@ b. Declaración de todos los diferentes tipos de datos
 
 var text = "Hola Mundo";
 
-console.log(text);*/
+console.log(text);
 
-----------------------------------------------------------------------------------
+
 
 /*c. Array con diferentes tipos de datos*/
 
@@ -27,7 +27,6 @@ const datos = [
 
 console.log(datos);
 
---------------------------------------------------------------------------------------------------------------
 
 
 /*d. Escribe una función polinómica de segundo grado que tome dos números y muestre el resultado*/
@@ -42,7 +41,6 @@ function polinomioSegundoGrado(x, a) {
 // Ejemplo de uso
 polinomioSegundoGrado(2, 4);
 
-------------------------------------------------------------------------------------------------------------------------------
 
 
 /*e. Crea una función flecha que reciba un string y muestre su impresión aplicando un método de manipulación de cadenas*/
@@ -52,9 +50,8 @@ const manipularCadena = (texto) => {
 };
 
 // Ejemplo de uso
-manipularCadena("a Adan Moo, le gusta el anime");*/
+manipularCadena("a Adan Moo, le gusta el anime");
 
--------------------------------------------------------------------------------------------------------------------------------
 
 /*f. Función que imprime los números del 1 al 10 en orden descendente*/
 
@@ -67,8 +64,6 @@ function imprimirDescendente() {
 imprimirDescendente();
 
 
-----------------------------------------------------------------------------------------------------------------------
-
 /*g.Crear un objeto que represente un objeto de tu institución*/
 
 const institucion = {
@@ -80,8 +75,6 @@ const institucion = {
 };
 
 console.log(institucion);
-
------------------------------------------------------------------------------------------------------------------------
 
 /*h.Agregar un método al objeto e imprimir una descripción*/
 
@@ -100,7 +93,6 @@ const institucion = {
 
 institucion.descripcion();
 
----------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*i. Crear un módulo con funciones matemáticas y usarlo en otro archivo*/
 
@@ -111,7 +103,7 @@ console.log("Resta:", matematicas.resta(5, 3));
 console.log("Multiplicación:", matematicas.multiplicacion(5, 3));
 console.log("División:", matematicas.division(5, 3));
 
------------------------------------------------------------------------------------------------
+
 
 /*j. Función que simula una operación asíncrona con setTimeout y callback*/
 
@@ -126,7 +118,7 @@ operacionAsincrona((mensaje) => {
   console.log(mensaje);
 });
 
-----------------------------------------------------------------------------------------------------------
+
 
 /*k. Conversión de una cadena a número con manejo de errores*/
 
@@ -147,4 +139,3 @@ function convertirANumero(cadena) {
 // Ejemplos
 convertirANumero("123");
 convertirANumero("abc");
-
